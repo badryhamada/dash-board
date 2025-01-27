@@ -1,0 +1,176 @@
+ *{
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-family:sans-serif;
+ }
+ body{
+    background-color: #001;
+    display: flex;
+    
+ }
+ .img-box
+ {  
+   width: 50px;
+   height: 50px;
+   border-radius: 50px;
+   overflow: hidden;
+   border:solid 0.5px rgb(200, 195, 188);
+   flex-shrink: 0;
+ }
+ .img-box img
+ {
+   width: 100%;
+  
+ }
+ .profile
+ {
+   display: flex;
+   align-items: center;
+   gap: 20px;
+   
+   
+ }
+
+ .menu
+ {
+   background-color: #123;
+   width:51px;
+   height: 100vh;
+   padding: 25px;
+   overflow:hidden ;
+   transition-duration: 0.3s;
+   
+
+ }
+ .menu:hover
+ {
+   width: 263px;
+   height: 100vh;
+ }
+ .menu ul
+ {
+   list-style-type:none;
+   height: 100%;
+   position: relative;
+   
+   
+ }
+ 
+ .menu ul a
+ {
+   text-decoration: none;
+   display:block;
+    
+   padding: 10px; 
+   margin: 10px 0;
+   border-radius: 8px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   gap:39px;
+   transition-delay: 0.1s;
+ }
+ 
+ ul li a:hover,.active,.box:hover,td:hover
+ {
+    background-color:#ffffff55;
+    border: #001 solid 2px;
+ }
+ .log-out
+ {
+     
+   border-radius: 8px;
+   position: absolute;
+   bottom: 0; 
+   width: 100%;
+ }
+ .log-out a
+ {
+   background-color: brown;
+ }
+ ul li a i
+ { 
+   /* تتعامل معامله الخط */
+     
+   font-size: 24px;
+ }
+  
+ .content
+ {
+    
+   width: 100%;
+   margin: 10px;
+ }
+ .title-info
+ {
+   padding: 10px;
+   margin: 10px 0;
+   background-color: rgb(84, 84, 225);
+   border-radius:8px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+ }
+.data-info
+{   
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   flex-wrap:wrap ;
+   gap: 10px;
+}
+.box
+{
+   padding: 10px; 
+   background-color:#123;
+   flex-basis: 150px;
+   height: 150px; 
+   border-radius: 8px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-grow: 1;
+}
+.box i
+{
+   font-size: 25px;
+   color: rgb(126, 126, 199);
+}
+.data span
+{
+   font-size: 25px;
+}
+table
+{
+   width: 100%;
+   border-spacing: 10px;
+
+}
+thead th
+{  
+   padding: 10px;
+   background-color: rgb(84, 84, 225) ;
+   border-radius: 8px;
+   
+}
+tbody td
+{
+   padding: 10px;
+   background-color:#123 ;
+   border-radius: 8px;
+   text-align: center;
+}
+.secound
+{
+   background-color: rgb(86, 121, 33);
+   padding: 3px;
+   border-radius: 5px;
+}
+.third
+{
+   background-color: rgb(172, 164, 9);
+   padding: 3px;
+   border-radius: 5px;
+}
